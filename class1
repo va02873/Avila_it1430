@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Rusty</title>
+</head>
+
+<body>
+    <h1>Rusty Steele</h1>
+    <h3>Hi! I'm a dog Rusty</h3>
+    <h4>Whats my favorite sport?</h4>
+
+    <form action="/submit_form" method="post">
+    <div>
+        <label>
+            <input type="checkbox" name="sport" value="soccer"> Soccer
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="sport" value="Tennis"> Tennis
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="sport" value="Basketball"> Basketball
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="subscribe" value="yes" checked> Subscribe to our Newsletter
+        </label>
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+
+    <h6>
+        You can follow me on 
+        <a href="https://www.linkedin.com/school/georgia-southern-university/">
+        Linkedin
+        </a>
+    </h6>
+
+    <h5>
+        You can reach me at:
+    </h5>
+    <ul>
+        <li>
+            <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgeorgiasouthernuniversity%2F&is_from_rle">
+            Instagram
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/GeorgiaSouthern/">
+            Facebook
+            </a>
+        </li>
+    </ul>
+
+</body>
+</html>
